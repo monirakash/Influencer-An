@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif;  
+}
+.container{
+    max-width: 1180px;
+    
+    padding: 0 52px;
+    margin: 57px auto 0 auto;
+    
+
+}
+.primary-button{
+    outline: 0px;
+    padding: 10px 13px;
+    background-image: linear-gradient(45deg, rgb(255, 0, 157) ,rgb(90, 47, 70) );
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 17px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.navigation{
+    display: flex;
+    
+}
+.navigation li{
+    list-style: none;
+    margin: 11px;
+}
+.navigation li a{
+    text-decoration: none;
+    padding: 0 5px;
+   
+
+}
+.container h2{
+    padding-left: 0px 52PX ;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    height: calc(100vh -50px);
+}
+.banner-left{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: flex-start;
+    
+
+}
+.banner-right img {
+    width: 100%;
+    padding-left: 130px;
+    border-radius:4px
+
+}
+.banner-left h1{
+    font-size: 3.3em;
+
+}
+.banner-left p{
+    font-size: 19px;
+    line-height: 1.7;
+    margin: 20px 0;
+
+}
